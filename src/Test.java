@@ -244,8 +244,8 @@ public class Test {
 
     public static void initWsDb(){
 
-        C3p0Plugin c3p0Plugin = new C3p0Plugin("jdbc:mysql://119.29.178.21/course?useUnicode=true&characterEncoding=utf-8",
-                "root","Phn2846573".trim());
+        C3p0Plugin c3p0Plugin = new C3p0Plugin("jdbc:mysql:********",
+                "*****","*******".trim());
         c3p0Plugin.setDriverClass("com.mysql.jdbc.Driver");
         c3p0Plugin.setMaxPoolSize(1000);
         c3p0Plugin.start();
